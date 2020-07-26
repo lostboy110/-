@@ -3,7 +3,7 @@
  git init
 
 git commit -m "first commit"
-git remote add origin "https://github.com/lostboy110/lost.git"
+git remote add origin https://github.com/lostboy110/lost.git
 git push -u origin master
 
 - 查看当前版本状态
@@ -18,6 +18,6 @@ git add *
 
 - 下载
 
-git clone "https://github.com/…/PrettyGirls.git"
+git clone https://github.com/…/PrettyGirls.git
 
 
