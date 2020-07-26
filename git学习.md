@@ -16,8 +16,12 @@ git diff
 
 git add *
 
-- 下载
+- 克隆
 
 git clone https://github.com/…/PrettyGirls.git
+
+- 更新合并
+
+git pull
 
 
