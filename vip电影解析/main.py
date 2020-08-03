@@ -44,9 +44,9 @@ class MyMainForm(QMainWindow,Ui_MainWindow):
         self.pushButton_2.clicked.connect(self.clear_url)
 
  
-        self.radioButton.toggled.connect(self.parse_url)
-        self.radioButton_2.toggled.connect(self.parse_url)
-        self.radioButton_3.toggled.connect(self.parse_url)
+        self.radioButton.toggled.connect(self.parse_urls)
+        self.radioButton_2.toggled.connect(self.parse_urls)
+        self.radioButton_3.toggled.connect(self.parse_urls)
         #self.radioButton_4.toggled.connect(self.parse_url)
         
         self.radioButton.setChecked(True)
@@ -66,7 +66,7 @@ class MyMainForm(QMainWindow,Ui_MainWindow):
         webbrowser.open(url)
 
 #定义信号源
-    def parse_url(self,jiexi_url):
+    def parse_urls(self,jiexi_url):
         if self.radioButton.isChecked():
             self.first_url = self.jiexi_url[0]
 
