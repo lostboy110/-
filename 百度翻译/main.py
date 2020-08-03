@@ -2,9 +2,7 @@ import sys
 
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
-#import Ui_baidu
 from Ui_baidu import Ui_MainWindow
-#from functools import partial
 
 import requests
 import json
@@ -14,15 +12,18 @@ import time
 
 class baidufanyi(QMainWindow,Ui_MainWindow):
 
-
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setupUi(self)
         
         self.pushButton.clicked.connect(self.fanyi)
+        
         self.pushButton_2.clicked.connect(self.fuzhi)
 
-#实例化剪切板
+        #if not self.textEdit_2.setPlainText:
+        #self.pushButton.returnPressed.connect(self.fanyi)
+
+        #实例化剪切板
         self.clipboard = QApplication.clipboard()  
 
 
@@ -54,7 +55,7 @@ class baidufanyi(QMainWindow,Ui_MainWindow):
 
 
 
-#复制功能实现
+    #复制功能实现
     def fuzhi (self):
         self.clipboard.setText(self.textEdit_2.toPlainText())
 

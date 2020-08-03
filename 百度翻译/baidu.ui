@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>tu/t01c61b8397836eada3.png</normaloff>tu/t01c61b8397836eada3.png</iconset>
+    <normaloff>tu/1.png</normaloff>tu/1.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(85, 170, 255);</string>
