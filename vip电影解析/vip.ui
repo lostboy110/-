@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../../../Pictures/lovewallpaper/OIP.z0ThlklKCMsZYmRZ_1EsSAAAAA.jpg</normaloff>../../../../Pictures/lovewallpaper/OIP.z0ThlklKCMsZYmRZ_1EsSAAAAA.jpg</iconset>
+    <normaloff>2.png</normaloff>2.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(96, 150, 200);</string>
@@ -63,39 +63,6 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>60</y>
-      <width>208</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QRadioButton" name="radioButton">
-       <property name="text">
-        <string>①号通用vip引擎系统</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="radioButton_2">
-       <property name="text">
-        <string>②号通用vip引擎系统</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QRadioButton" name="radioButton_3">
-       <property name="text">
-        <string>无广告超速解析</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
       <x>50</x>
       <y>220</y>
       <width>571</width>
@@ -135,6 +102,60 @@
         </size>
        </property>
       </spacer>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>181</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_3">
+       <property name="text">
+        <string>3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_4">
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_5">
+       <property name="text">
+        <string>5</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_6">
+       <property name="text">
+        <string>6</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
