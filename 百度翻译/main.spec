@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=False , icon='D:\\project\\百度翻译\\1.ico')
+          console=True , icon='1.ico')
